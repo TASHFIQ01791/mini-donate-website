@@ -50,15 +50,19 @@ body{
 }
 
 .container2{
-    width: 80%;
-    margin-left: 10%;
+    width: 100%;
+    /* margin-left: 10%; */
+}
+hr{
+    width: 50%;
 }
 
 
 .all_in_one{
     display: flex;
-    justify-content:space-evenly;   
+    justify-content:center;   
     margin-bottom: 80px;
+    column-gap: 25px;
 }
 .donate_today{
     margin-bottom: 70px;
@@ -85,10 +89,10 @@ body{
 }
 
 .container3{
-    max-width: 100%;
-    margin-left: 9%;
+    width: 100%;
+    /* margin-left: 9%; */
 
-    margin-bottom: 500px;
+    margin-bottom: 150px;
 }
 
 
@@ -112,11 +116,40 @@ body{
     font-size: 17px;
     color: rgb(28, 28, 28);
 }
-.separate_card div {
-    float: left;
-    justify-content:space-around;
+.separate_card  {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+
+}
+
+#layout div{
     width: 20%;
-    margin: 1%;
+}
+
+.container4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.container4 div{
+    width: 40%;
+}
+
+.container4 img{
+    /* height: 600px; */
+    width:80%;
+}
+ a:hover{
+    background-image: linear-gradient(rgb(91, 139, 131),rgb(74, 241, 183));
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    font-weight: 900;
+    color: black;
+}
+.p_style{
+    color: gray;
+    line-height: 30px;
 }
 
 
