@@ -152,5 +152,40 @@ hr{
     line-height: 30px;
 }
 
+.container5 {
+    text-align: center;
+}
+.email {
+    display: flex;
+    justify-content:center;
+    background-color: rgba(239, 214, 163, 0.897);
+    padding: 50px 80px;
+    margin-left: 20%;
+    width: 50%;
+
+   
+}
+.email input{
+    padding:10px 0px 10px 40px;
+    background-color: rgba(180, 175, 175, 0.244);
+    outline-color: red;
+    font-size: 20px;
+    align-items: center;
+}
+.container_last{
+    margin-bottom: 200px;
+}
+.footer{
+    height: 200px;
+    background-color: black;
+    padding-top: 20px;
+}
+
+.footer h1{
+    color: #fff;
+    text-align: center;
+    color: red;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 
