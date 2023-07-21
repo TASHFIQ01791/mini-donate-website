@@ -11,6 +11,7 @@ body{
     height: 650px;
     position: relative;
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .top_bg_image_text{
@@ -29,7 +30,7 @@ body{
     margin-bottom: 50px;
 }
 
-.top_bg_image_text a{
+ a{
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -37,3 +38,86 @@ body{
     border-radius: 3px;
     background-image: linear-gradient(rgb(248, 87, 114), tomato);
 }
+.donate_today{
+    text-align: center;
+}
+.donate_today h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.donate_today p{
+    color: gray;
+}
+
+.container2{
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+.all_in_one{
+    display: flex;
+    justify-content:space-evenly;   
+    margin-bottom: 80px;
+}
+.donate_today{
+    margin-bottom: 70px;
+}
+
+
+.taka1{
+    background-color: rgba(96, 96, 96, 0.071);
+    padding: 40px 45px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(75, 69, 69);
+}
+#taka2{
+    background-color: rgba(96, 96, 96, 0.071);
+    padding: 40px 45px;
+    font-size: 30px;
+    font-weight: bolder;
+    box-shadow: 5px  rgb(122, 65, 65);
+    outline-style: solid;
+    color: rgb(255, 0, 0);
+    background-color: rgba(225, 184, 184, 0.573);
+    align-items: center;
+}
+
+.container3{
+    max-width: 100%;
+    margin-left: 9%;
+
+    margin-bottom: 500px;
+}
+
+
+#food_for_family{
+    background-color:rgba(95, 141, 145, 0.185);
+    padding: 25px 60px;
+    font-size: 17px;
+    color: rgb(75, 69, 69);
+}
+
+#shelter_for_family{
+    background-color:rgba(155, 79, 150, 0.185);
+    padding: 25px 60px;
+    font-size: 17px;
+    color: rgb(30, 32, 30);
+}
+
+#education_for_a_child{
+    background-color:rgba(179, 188, 104, 0.185);
+    padding: 25px 60px;
+    font-size: 17px;
+    color: rgb(28, 28, 28);
+}
+.separate_card div {
+    float: left;
+    justify-content:space-around;
+    width: 20%;
+    margin: 1%;
+}
+
+
+
